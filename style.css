@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+
+.row{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    
+
+} 
+#input{
+    margin: auto 35%;
+    margin-bottom: 2px;
+    width: 24%;
+    padding: 3%;
+    box-shadow: 2px 2px #ccc;
+
+}
+table{
+    margin: 0% auto;
+    width: 23%;
+    border: 2px solid #ccc;
+    
+}
+button{
+    padding: 40px;
+    display: block;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    
+}
+
+button:active
+{
+    transform: scale(1.04);
+    transition: 6ms;
+    cursor: pointer;
+}
+.one
+{
+   background-color: yellowgreen;
+}
+li{
+    list-style: none;
+}
+@media screen and (max-width:1024px) {
+
+    #input{
+     
+        margin: 0% 31%;
+        width: 32%;
+    }
+}
+@media screen and (max-width:768px) {
+
+    #input{
+        margin-left: 24%;
+        width: 45%;
+    }
+}
